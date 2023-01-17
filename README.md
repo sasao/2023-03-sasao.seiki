@@ -1,26 +1,19 @@
 # Overview
 
-ここに、何をするプログラムなのか、を書く。
+This program is browser extension that detects site with suspicious cookie information.
 
 # Requirements
 
-ここに、プログラムをコンパイルや実行するために必要なツール（ソフトウェア、ハードウェア）を書く。
-
-# Install and Usage
-
-ここに、プログラムのコンパイルの仕方やインストールの仕方を書く。
+web browser(Google Chrome, Microsoft Edge, Firefox)
 
 # Author
 
-ここに、自分の名前を書く。
+Seiki Sasao
 
 # References
 
-ここに、参照した文献やサイトのURLを書く。
+Okazawa Yoshihiro, Saito Taiichi ,『Browser extension to detect cookie bomb attack』, 2022 Symposium on Cryptography and Information Security, SCIS2022-3C3-1,2022年
 
 # License
 
-ここに、自分のプログラムのライセンスを書く。
-ライセンスは自分で決めてよいですが、誰もが利用できるライセンスにしてください。MIT Licenseを選ぶ学生さんが多いようです。
-
-必要なら、上記以外の項目を追加して、加筆してもかまいません。
+MIT

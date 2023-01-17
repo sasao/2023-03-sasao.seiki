@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2, 
+	"name": "Cookie Alert", 
+	"version": "1.1.2", 
+	"permissions": [
+	      "webRequest",
+		  "notifications",
+		  "storage",
+		  "https://*/*",
+		  "http://*/*"
+	], 
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"options_ui":{
+		"page":"options.html",
+		"open_in_tab": false
+ 	},
+ 	"icons":{
+ 		"48":"icon48.png",
+ 		"128": "icon128.png"
+ 	},
+ 	"browser_specific_settings":{
+ 		"gecko":{
+ 			"id":"{32079325-5035-4e1f-a0e3-ae4a09e6312f}"
+ 		}
+ 	}
+}

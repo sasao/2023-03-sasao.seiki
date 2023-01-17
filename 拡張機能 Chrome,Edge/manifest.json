@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3, 
+	"name": "Cookie Alert", 
+	"version": "0.0.0", 
+	"permissions": [
+		"webRequest",
+		"notifications",
+		"storage"
+	],
+	"host_permissions": [
+        "https://*/*", 
+        "http://*/*"    
+    ], 
+	"background": {
+		"service_worker": "background.js"
+	},
+	"options_ui":{
+		"page":"options.html",
+		"open_in_tab": false
+	},
+    "icons": {
+          "48": "icon48.png",
+          "128": "icon128.png"
+      } 
+}
